@@ -14,8 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp
-"
+            android:layout_marginBottom="5dp"
             android:layout_gravity="center"
             android:fontFamily="sans-serif-black"
             android:textSize="50dp"
@@ -31,23 +30,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/daftarlayanan"/>
-        <CheckBox
-            android:id="@+id/cbReg"
+
+        <RadioGroup
+            android:id="@+id/radioGroupProducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbReg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Regular Service" />
 
-        <CheckBox
-            android:id="@+id/cbDry"
+        <RadioButton
+            android:id="@+id/rbDry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dry Cleaning Service" />
 
-        <CheckBox
-            android:id="@+id/cbExpo"
+        <RadioButton
+            android:id="@+id/rbExpo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Express-o! Service" />
+        </RadioGroup>
 
     </LinearLayout>
 

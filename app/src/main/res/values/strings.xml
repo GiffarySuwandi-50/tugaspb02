@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">aplikasiTes</string>
-    <string name="daftarlayanan">Layanan:\n 1. Regular Service: Rp. 12.000,- per Kg\n 2. Dry Cleaning Service: Rp. 10.000,- per Kg\n 3. Express-o! Service: Rp. 16.000,- per Kg\n \n Biaya Admin termasuk transportasi sebesar Rp.500,-</string>
+    <string name="daftarlayanan">Layanan:\n 1. Regular Service: Rp. 12.000,- per Kg\n 2. Dry Cleaning Service: Rp. 10.000,- per Kg\n 3. Express-o! Service: Rp. 16.000,- per Kg\n \n Biaya Admin \n Regular Rp.1000,- \n Dry Cleaning Rp.500,- \n Express-o! Rp.2000,-.</string>
     <string name="membership">Member layanan mendapatkan diskon 5%!</string>
 </resources>
