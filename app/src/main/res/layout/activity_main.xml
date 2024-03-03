@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/productContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp
+"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="50dp"
+            android:text="Cleandry Laundry"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2mm"
+            android:layout_gravity="center"
+            android:textSize="8dp"
+            android:text="prototipe Akusmas v.0.0.1 by Giffary Arfalino Suwandi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daftarlayanan"/>
+        <CheckBox
+            android:id="@+id/cbReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regular Service" />
+
+        <CheckBox
+            android:id="@+id/cbDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dry Cleaning Service" />
+
+        <CheckBox
+            android:id="@+id/cbExpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Express-o! Service" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnPesan"
+        android:layout_alignRight="@id/btnPesan"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="64dp"
+        android:src="@drawable/tada" />
+    <RadioButton
+        android:id="@+id/rbMembership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productContainer"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:text="Membership" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rbMembership"
+        android:gravity="center"
+        android:text="@string/membership"/>
+
+    <Button
+        android:id="@+id/btnPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rbMembership"
+        android:layout_marginTop="50dp"
+        android:text="Pesan!" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/laundry"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnPesan"
+        android:layout_alignLeft="@id/btnPesan"/>
+
+
+
+</RelativeLayout>
